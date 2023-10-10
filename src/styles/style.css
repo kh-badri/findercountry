@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 32px auto;
+}
+
+country-list {
+    display: block;
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+}
+
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #5C8374;
+    text-align: center;
+    font-weight: bold;
+}
