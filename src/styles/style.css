@@ -24,7 +24,7 @@ country-list {
 
 
 footer {
-    margin-top: 100px;
+    margin-top: 180px;
     padding: 20px;
     display: flex;
     color: white;
@@ -32,7 +32,7 @@ footer {
     justify-content: center;
     text-align: center;
     font-weight: bold;
-    bottom: 0;    
+    margin-bottom: 0;    
     width: 100%;
 
 }
