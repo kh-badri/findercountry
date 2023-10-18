@@ -22,15 +22,33 @@ class MyContainer extends HTMLElement {
             text-align: center;
             font-family: 'Mochiy Pop One', sans-serif;
         }
-        .my-container h1,h2,h3  {
+        @media screen and (max-width:768px) {
+          my-container h3,h4 {
+            font-size: 1.5em;
+          }
+        }
+
+        @media screen and (max-width:478px) {
+          my-container h3,h4 {
+            font-size: 0.9em;
+          }
+        }
+
+        @media screen and (min-width:455px) {
+          my-container h3,h4 {
+            font-size: 0.8em;
+          }
+        }
+
+        .my-container h3,h4 {
             color: #5C8374;
+            margin: 0;
         }
           </style>
           
     <div class="my-container">
-      <h1>Welcom To Aplikasi Country Finder</h1>
-      <h2>Submission Dicoding </h2  >
-      <h3>Khairul Badri</h3>
+      <h3>Welcome To</h3>
+      <h4>Aplikasi Country Finder</h4>
     </div>
         `;
       }

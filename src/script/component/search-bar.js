@@ -63,7 +63,7 @@ class SearchBar extends HTMLElement {
           cursor: pointer;
           margin-left: auto;
           padding: 16px;
-          background-color: #183D3D;
+          background-color: #5C8374;
           color: white;
           border: 0;
           text-transform: uppercase;

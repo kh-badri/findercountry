@@ -24,9 +24,15 @@ country-list {
 
 
 footer {
+    margin-top: 100px;
     padding: 20px;
+    display: flex;
     color: white;
     background-color: #5C8374;
+    justify-content: center;
     text-align: center;
     font-weight: bold;
+    bottom: 0;    
+    width: 100%;
+
 }
