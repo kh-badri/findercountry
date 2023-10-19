@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +8,8 @@
 
 body {
     font-family: sans-serif;
-    height: 100vh;
+    min-height: 100vh; /* Ganti height menjadi min-height */
+    position: relative; /* Tambahkan ini */
 }
 
 main {
@@ -23,14 +25,15 @@ country-list {
     padding: 16px;
 }
 
-
 footer {
+    margin-top: 100px;
     padding: 20px;
-    position: fixed;
+    position: absolute; /* Ganti position menjadi absolute */
     display: block;
     color: white;
     background-color: #5C8374;
     text-align: center;
-    font-weight: bold;  
+    font-weight: bold;
     width: 100%;
+    bottom: 0; /* Tambahkan ini untuk meletakkan footer di bagian paling bawah */
 }
