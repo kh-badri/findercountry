@@ -28,7 +28,7 @@ country-list {
 footer {
     margin-top: 50px;
     padding: 20px;
-    display: block;
+    display: inline-block;
     color: white;
     background-color: #5C8374;
     text-align: center;
