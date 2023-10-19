@@ -26,9 +26,8 @@ country-list {
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 20px;
-    position: absolute; /* Ganti position menjadi absolute */
     display: block;
     color: white;
     background-color: #5C8374;
