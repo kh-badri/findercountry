@@ -7,6 +7,7 @@
 
 body {
     font-family: sans-serif;
+    height: 100vh;
 }
 
 main {
@@ -32,6 +33,6 @@ footer {
     justify-content: center;
     text-align: center;
     font-weight: bold;
-    bottom: 0;  
+    margin-bottom: 0;  
     width: 100%;
 }
